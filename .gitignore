@@ -177,3 +177,10 @@ wandb/
 swanlog/
 generated_predictions.jsonl
 predictions_score.json
+images/
+data/images
+data/sft_data.json
+data/sft_data_unimodal.json
+data/sft_data_unimodal_test.json
+data/dpo_data_unimodal_test.json
+data/dpo_data_unimodal.json

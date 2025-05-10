@@ -1,4 +1,26 @@
 {
+  "sft_data":{
+    "file_name":"sft_data.json"
+  },
+  "sft_data_unimodal_test":{
+    "file_name":"sft_data_unimodal_test.json"
+  },
+  "dpo_data_unimodal_test":{
+    "file_name":"dpo_data_unimodal_test.json",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "sft_data_unimodal":{
+    "file_name":"sft_data_unimodal.json"
+  },
+  "dpo_data_unimodal":{
+    "file_name":"dpo_data_unimodal.json"
+  },
   "identity": {
     "file_name": "identity.json"
   },
